@@ -25,7 +25,7 @@ myTemplate için dosya yolu = "C:\Users\xxxx\Desktop\MyTemplate"
 
 Kurallar:
 iTemplate dosyalarında asla değişim yapma. (unutma)
-Dosya okur yada yazarken bana sormana gerek yok. (unutma)
+Dosya okur yada yazar iken bana sormana gerek yok. (unutma, benden sürekli izin isteme)
 iTemplate içindeki "iSystem" klasörünü myTemplate içerisine kopyala. (ilk bunu yap)
 "iSystem" içindeki dosyalarda asla değişim yapma. Bunlar Api erişim için kullanacağımız dosyalar. (unutma)
 
@@ -35,7 +35,7 @@ myTemplate PHP versiyonu 8.3'e yükselt.
 myTemplate de OPcache/Redis/Memcached kullanıldı ise bunları APCu'ya çevir, store mantığını iTemplate deki gibi yap.
 myTemplate Temayı bozmamaya özen göster.
 myTemplate SQL işlemlerini iTemplateden aldığımız Api Fonksiyonlarına göre uyarlarla.
-Dosyalarda geçen "Darkbey" ismini benim verdiğim OyunAdı ile değiş.
+Dosyalarda geçen "XXXXX" ismini benim verdiğim OyunAdı ile değiş.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir, URL'leri var ise onlarıda SiteURL ile değiştir.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir.
 .htaccess yok ise oluştur. (iTemplate den örnek alabilirsin)
@@ -48,8 +48,12 @@ Değişimler sonrası myTemplate'e ait klasör içinde  gereksiz/kullanılmayan 
 Değişimler sonrası myTemplate içindeki ".htaccess" RewriteRule kurallarını değişimlere düzenle.
 Gereksiz kodları ve açıklamaları sil.
 Olası arka plan açıkları yada siteye zarar verecek JavaScript yada PHP kodu görürsen sil. (bana mutlaka bildir)
+Yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa düzeltmesini yap.
+```
 
-yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa düzeltmesini yap.
 
-Boyutu çok büyük resimler var ise Optimize et.
+Pro versiyon kullanıyor iseniz aşağıdakileride ekleye bilirsiniz.
+```markdown
+Boyutu çok büyük resimler var ise Optimize et. (görüntü bozmadan sıkıştır)
+Resimleri sitede kullanıldığı ölçülerde boyutlandır. (örneğin CSS yada PHP içinde 64x64 kullanılan bir resim dosyası 512x512 ise bunu 64x64 yap)
 ```
