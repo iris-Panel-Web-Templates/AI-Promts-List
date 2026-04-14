@@ -1,5 +1,9 @@
 # AI-Promts-List
 AI ile PHP/SQL ile hazırlanmış bir siteyi irisPanel Onyx Api sistemi dönüştürmeye yardımcı olur.
+Cursor, Codex, CludeCode aracılığı ile yapabilirsiniz.
+
+Gerekli alanları değiştirerek kullanbilirsiniz. (OyunAdı, SiteURL, irisAuthKey)
+"iTemplate için dosya yolu" alanına isterseniz bilgisayarınızdaki konumu yazabilirsiniz.
 
 ```markdown
 iTemplate = "iris Panel Onyx"
@@ -12,9 +16,9 @@ Tüm işlemleri SQL'e bağlanarak yapar.
 
 
 Bilmen gerekenler:
-OyunAdı    = "TugraMt2 ONYX"
-SiteURL    = "tugramt2.com"
-irisAuthKey = "8OTWUXU4HTDH75A2"
+OyunAdı     = "TugraMt2 ONYX"
+SiteURL     = "tugramt2.com"
+irisAuthKey = "xxxxxxxxxx"
 iTemplate için dosya yolu  = "https://github.com/iris-Panel-Web-Templates/Web-Clasic"
 myTemplate için dosya yolu = "C:\Users\pc\Desktop\FTP_old"
 
@@ -34,11 +38,13 @@ myTemplate SQL işlemlerini iTemplateden aldığımız Api Fonksiyonlarına gör
 Dosyalarda geçen "Darkbey" ismini benim verdiğim OyunAdı ile değiş.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir, URL'leri var ise onlarıda SiteURL ile değiştir.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir.
-Sözleşme dosyasını silme, içindeki oyun adı ve urlleri verdiğim oyun adı ve site urlsi ile güncelle. (dosya "imprint,agreement,contract,articles,sozlesme,kontrat" gibi isimlere sahip olabilir)
-myTemplate dosyaları içinde kullanılan JavaScrip ve CSS'lerin eğer CDN'i var ise Javascrip'ler ve Css'ler için CDN kullan, sonra CND e çevrilen dosyları sil.
-Değişimler sonrası myTemplate'e ait klasör içinde kullanılmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru.)
-Değişimler sonrası myTemplate'e ait klasör içinde ihtiyaç olmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru.)
-Değişimler sonrası myTemplate'e ait klasör içinde  gereksiz/kullanılmayan resimleri bul ve sil.
+.htaccess yok ise oluştur. (iTemplate den örnek alabilirsin)
+.htaccess içinde yer alan RewriteRule'leri yeni sisteme göre güncelle. (seo uyumlu olsun)
+Sözleşme dosyasını silme, içindeki oyun adı ve url'leri verdiğim oyun adı ve site url'si ile değiştir. (dosya "imprint,agreement,contract,articles,sozlesme,kontrat" gibi isimlere sahip olabilir)
+myTemplate dosyaları içinde kullanılan JavaScrip ve CSS'lerin eğer CDN'i var ise bu Javascrip'ler ve Css'ler için CDN kullan, sonra CDN e çevrilen dosyları sil.
+Değişimler sonrası myTemplate'e ait klasör içinde kullanılmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru)
+Değişimler sonrası myTemplate'e ait klasör içinde ihtiyaç olmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru)
+Değişimler sonrası myTemplate'e ait klasör içinde  gereksiz/kullanılmayan resimleri bul ve sil. (CSS dosyalarını mutlaka kontrol et, CSS'lerde geçiyor ise silme)
 Değişimler sonrası myTemplate içindeki ".htaccess" RewriteRule kurallarını değişimlere düzenle.
 Gereksiz kodları ve açıklamaları sil.
 Olası arka plan açıkları yada siteye zarar verecek JavaScript yada PHP kodu görürsen sil. (bana mutlaka bildir)
