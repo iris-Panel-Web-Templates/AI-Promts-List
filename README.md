@@ -34,6 +34,7 @@ Yapılacaklar: (sırası ile yap, sırayı bozma)
 İlk adımda myTemplate projesi genelinde PHP 8.3 uyumluluk taraması yap; deprecation/fatal üreten yerleri (özellikle required/optional parametre sırası ve başlangıç akışındaki bağlantı/fallback hataları) düzeltmeden diğer adımlara geçme.
 myTemplate de OPcache/Redis/Memcached kullanıldı ise bunları APCu'ya çevir, store mantığını iTemplate deki gibi yap.
 myTemplate Temayı bozmamaya özen göster.
+myTemplate içinde "Admin Panel" tarzı bir sistem ekli ise bunu kaldır.
 myTemplate SQL işlemlerini iTemplateden aldığımız Api Fonksiyonlarına göre uyarlarla.
 myTemplate projesindeki tüm SQL bağımlılıklarını tamamen kaldır ve tüm veri işlemlerini yalnızca entegre API fonksiyonlarıyla çalışacak şekilde dönüştür. SQL’e düşen hiçbir aktif sorgu kalmasın. Geçişi parça parça yap, her parçadan հետո çalışırlık kontrolü yap, hataları düzelt, sonra sonraki parçaya geç.
 
