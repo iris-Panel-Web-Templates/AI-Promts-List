@@ -57,5 +57,6 @@ Yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa d�
 Pro versiyon kullanıyor iseniz aşağıdakileride ekleye bilirsiniz.
 ```text
 Boyutu çok büyük resimler var ise Optimize et. (görüntü bozmadan sıkıştır)
-Resimleri sitede kullanıldığı ölçülerde boyutlandır. (örneğin CSS yada PHP içinde 64x64 kullanılan bir resim dosyası 512x512 ise bunu 64x64 yap)
+Resimleri sitede kullanıldığı ölçülerde boyutlandır. (örneğin CSS/PHP/JS içinde 64x64 kullanılan bir resim dosyasının ölçüsü 512x512 ise bu resim dosyasını 64x64 boyutlandır)
+Hareketli gif dosyalarını webm formatına dönüştür, CSS/PHP/JS dosyalarında geçiyorsa güncelle.
 ```
