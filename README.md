@@ -7,12 +7,12 @@ Gerekli alanları değiştirerek kullanbilirsiniz. (OyunAdı, SiteURL, irisAuthK
 
 ```text
 iTemplate = "iris Panel Onyx"
-iTemplate SQL kullanmadan Api geliştirilmiş bir arabirim kullanır.
+iTemplate nedir: 'irisPanel' altyapısı ile çalışır; tüm veri işlemleri SQL'e doğrudan bağlantı olmadan merkezi bir 'REST API' üzerinden yürütülür.
 "Kayıt", "Şifremi unuttum", "Kullanıcı Paneli", "Kullanıcı Hesap Yönetimi", "Oyuncu Sıralaması", "Lonca Sıralaması", "Ban Listesi", "istatistikler", "Haberler", "İndirme Linkleri" vs. vs. birçok şeyi api ile yönetir.
 
 
 myTemplate = "Benim Hazırladığım Site"
-Tüm işlemleri SQL'e bağlanarak yapar.
+myTemplate nedir: Tüm işlemleri SQL'e bağlanarak yapar.
 
 
 Bilmen gerekenler:
