@@ -5,7 +5,7 @@ Cursor, Codex, CludeCode aracılığı ile yapabilirsiniz.
 Gerekli alanları değiştirerek kullanbilirsiniz. (OyunAdı, SiteURL, irisAuthKey)
 "iTemplate için dosya yolu" alanına isterseniz bilgisayarınızdaki konumu yazabilirsiniz.
 
-```markdown
+```text
 iTemplate = "iris Panel Onyx"
 iTemplate SQL kullanmadan Api geliştirilmiş bir arabirim kullanır.
 "Kayıt", "Şifremi unuttum", "Kullanıcı Paneli", "Kullanıcı Hesap Yönetimi", "Oyuncu Sıralaması", "Lonca Sıralaması", "Ban Listesi", "istatistikler", "Haberler", "İndirme Linkleri" vs. vs. birçok şeyi api ile yönetir.
@@ -40,6 +40,8 @@ Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir, URL'l
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir.
 .htaccess yok ise oluştur. (iTemplate den örnek alabilirsin)
 .htaccess içinde yer alan RewriteRule'leri yeni sisteme göre güncelle. (seo uyumlu olsun)
+iTemplate .htaccess dosyası içinde olup myTemplate .htaccess içinde olmayan önemli satırlar var ise ekle.
+myTemplate içinde error.php yok ise güzel birtane oluştur ve .htaccess'e bunu işle.
 Sözleşme dosyasını silme, içindeki oyun adı ve url'leri verdiğim oyun adı ve site url'si ile değiştir. (dosya "imprint,agreement,contract,articles,sozlesme,kontrat" gibi isimlere sahip olabilir)
 myTemplate dosyaları içinde kullanılan JavaScrip ve CSS'lerin eğer CDN'i var ise bu Javascrip'ler ve Css'ler için CDN kullan, sonra CDN e çevrilen dosyları sil.
 Değişimler sonrası myTemplate'e ait klasör içinde kullanılmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru)
@@ -53,7 +55,7 @@ Yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa d�
 
 
 Pro versiyon kullanıyor iseniz aşağıdakileride ekleye bilirsiniz.
-```markdown
+```text
 Boyutu çok büyük resimler var ise Optimize et. (görüntü bozmadan sıkıştır)
 Resimleri sitede kullanıldığı ölçülerde boyutlandır. (örneğin CSS yada PHP içinde 64x64 kullanılan bir resim dosyası 512x512 ise bunu 64x64 yap)
 ```
