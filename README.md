@@ -35,6 +35,8 @@ Yapılacaklar: (sırası ile yap, sırayı bozma)
 myTemplate de OPcache/Redis/Memcached kullanıldı ise bunları APCu'ya çevir, store mantığını iTemplate deki gibi yap.
 myTemplate Temayı bozmamaya özen göster.
 myTemplate SQL işlemlerini iTemplateden aldığımız Api Fonksiyonlarına göre uyarlarla.
+myTemplate projesindeki tüm SQL bağımlılıklarını tamamen kaldır ve tüm veri işlemlerini yalnızca entegre API fonksiyonlarıyla çalışacak şekilde dönüştür. SQL’e düşen hiçbir aktif sorgu kalmasın. Geçişi parça parça yap, her parçadan հետո çalışırlık kontrolü yap, hataları düzelt, sonra sonraki parçaya geç.
+
 Dosyalarda geçen "XXXXX" ismini benim verdiğim OyunAdı ile değiş.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir, URL'leri var ise onlarıda SiteURL ile değiştir.
 Dosyalarda geçen tasarımcı/yapımcı bilgisini OyunAdı ile değiştir.
@@ -50,7 +52,10 @@ Değişimler sonrası myTemplate'e ait klasör içinde  gereksiz/kullanılmayan 
 Değişimler sonrası myTemplate içindeki ".htaccess" RewriteRule kurallarını değişimlere göre düzenle.
 Gereksiz kodları ve açıklamaları sil.
 Olası arka plan açıkları yada siteye zarar verecek JavaScript yada PHP kodu görürsen sil. (bana mutlaka bildir)
-Yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa düzeltmesini yap.
+
+Tamamlanma kriteri: 
+aktif uygulama kodunda hiçbir SQL çağrısı kalmaması ve tüm kullanıcı akışlarının API ile sorunsuz çalışması.
+myTemplate'de hatalar var mı kontrol et, varsa düzeltmesini yap.
 ```
 
 
