@@ -1,7 +1,7 @@
 # AI-Promts-List
 AI ile PHP/SQL ile hazırlanmış bir siteyi irisPanel Onyx Api sistemi dönüştürmeye yardımcı olur.
 
-```ini
+```markdown
 iTemplate = "iris Panel Onyx"
 iTemplate SQL kullanmadan Api geliştirilmiş bir arabirim kullanır.
 "Kayıt", "Şifremi unuttum", "Kullanıcı Paneli", "Kullanıcı Hesap Yönetimi", "Oyuncu Sıralaması", "Lonca Sıralaması", "Ban Listesi", "istatistikler", "Haberler", "İndirme Linkleri" vs. vs. birçok şeyi api ile yönetir.
