@@ -3,7 +3,6 @@ AI ile PHP/SQL ile hazırlanmış bir siteyi irisPanel Onyx Api sistemi dönüş
 Cursor, Codex, CludeCode aracılığı ile yapabilirsiniz.
 
 Gerekli alanları değiştirerek kullanbilirsiniz. (OyunAdı, SiteURL, irisAuthKey)
-
 "iTemplate için dosya yolu" alanına isterseniz bilgisayarınızdaki konumu yazabilirsiniz.
 
 ```markdown
