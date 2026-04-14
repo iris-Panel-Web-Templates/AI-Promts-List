@@ -47,7 +47,7 @@ myTemplate dosyaları içinde kullanılan JavaScrip ve CSS'lerin eğer CDN'i var
 Değişimler sonrası myTemplate'e ait klasör içinde kullanılmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru)
 Değişimler sonrası myTemplate'e ait klasör içinde ihtiyaç olmayan php dosyası var ise sil. (Üyelik sözleşmesi gibi sayfalarda linki olan dosyaları koru)
 Değişimler sonrası myTemplate'e ait klasör içinde  gereksiz/kullanılmayan resimleri bul ve sil. (CSS dosyalarını mutlaka kontrol et, CSS'lerde geçiyor ise silme)
-Değişimler sonrası myTemplate içindeki ".htaccess" RewriteRule kurallarını değişimlere düzenle.
+Değişimler sonrası myTemplate içindeki ".htaccess" RewriteRule kurallarını değişimlere göre düzenle.
 Gereksiz kodları ve açıklamaları sil.
 Olası arka plan açıkları yada siteye zarar verecek JavaScript yada PHP kodu görürsen sil. (bana mutlaka bildir)
 Yukarıdaki işlemler bitince myTemplate'de hatalar var mı kontrol et, varsa düzeltmesini yap.
