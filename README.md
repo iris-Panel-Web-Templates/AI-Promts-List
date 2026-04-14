@@ -20,7 +20,7 @@ OyunAdı     = "TugraMt2 ONYX"
 SiteURL     = "tugramt2.com"
 irisAuthKey = "xxxxxxxxxx"
 iTemplate için dosya yolu  = "https://github.com/iris-Panel-Web-Templates/Web-Clasic"
-myTemplate için dosya yolu = "C:\Users\pc\Desktop\FTP_old"
+myTemplate için dosya yolu = "C:\Users\xxxx\Desktop\MyTemplate"
 
 
 Kurallar:
