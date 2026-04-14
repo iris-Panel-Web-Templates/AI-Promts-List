@@ -31,7 +31,7 @@ iTemplate içindeki "iSystem" klasörünü myTemplate içerisine kopyala. (ilk b
 
 
 Yapılacaklar: (sırası ile yap, sırayı bozma)
-myTemplate PHP versiyonu 8.3'e yükselt.
+İlk adımda myTemplate projesi genelinde PHP 8.3 uyumluluk taraması yap; deprecation/fatal üreten yerleri (özellikle required/optional parametre sırası ve başlangıç akışındaki bağlantı/fallback hataları) düzeltmeden diğer adımlara geçme.
 myTemplate de OPcache/Redis/Memcached kullanıldı ise bunları APCu'ya çevir, store mantığını iTemplate deki gibi yap.
 myTemplate Temayı bozmamaya özen göster.
 myTemplate SQL işlemlerini iTemplateden aldığımız Api Fonksiyonlarına göre uyarlarla.
